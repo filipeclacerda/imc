@@ -1,0 +1,11 @@
+-um parágrafo contextualizando o sistema que estamos usando.
+-subir no git e colocar o link
+-relatório com todos os testes
+-print dos testes passando e do código todo
+-teste de cobertura
+-print da interface e depois dos testes com mock
+-video passando o selenium (?)
+-sonarqube
+-diagrama de classe
+-métricas
+-teste de integraçao
