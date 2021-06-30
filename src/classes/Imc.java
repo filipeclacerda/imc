@@ -39,11 +39,9 @@ public class Imc implements IImc{
         if (sexo.equals("F")) {//1
             return getString(imc, FEMININO_ABAIXO_DO_PESO, FEMININO_PESO_NORMAL, FEMININO_MARGINALMENTE_ACIMA_DO_PESO, FEMININO_ACIMA_DO_PESO_IDEAL);
         }
-        else if (sexo.equals("M")) {//11
+        else {//11
             return getString(imc, MASCULINO_ABAIXO_DO_PESO, MASCULINO_PESO_NORMAL, MASCULINO_MARGINALMENTE_ACIMA_DO_PESO, MASCULINO_ACIMA_DO_PESO_IDEAL);
         }
-        throw new IllegalArgumentException("Erro");//21
-
     }
 
     private String getString(double imc, double abaixo_do_peso, double peso_normal, double marginalmente_acima_do_peso, double acima_do_peso_ideal) {

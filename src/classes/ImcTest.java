@@ -1,7 +1,8 @@
 package classes;
 
 import org.junit.Before;
-
+import org.junit.jupiter.api.Test;
+import static org.junit.Assert.assertEquals;
 import static org.easymock.EasyMock.*;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -173,6 +174,7 @@ class ImcTest {
         replay(imcMock);
         assertEquals("Obeso", imc.resultadoFinal(imcMock));
     }
+
 
 
 }
